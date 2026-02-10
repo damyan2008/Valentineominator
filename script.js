@@ -31,7 +31,7 @@ function thing() {
         document.getElementsByTagName("img")[0].style.display = "none";
 
         let waguri = document.createElement("img");
-        waguri.setAttribute("src", "./assets/kaoruko-waguri-kaoruko.gif");
+        waguri.setAttribute("src", "../assets/kaoruko-waguri-kaoruko.gif");
         document.getElementsByClassName("container")[0].appendChild(waguri);
     });
 
