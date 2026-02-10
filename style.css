@@ -1,0 +1,65 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+:root {
+  --bg-color: #ffe6eb; /* Default pink */
+}
+
+body {
+  height: 100vh;
+  background-color: var(--bg-color);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  text-align: center;
+}
+
+h1 {
+  margin-bottom: 20px;
+  color: #d6336c;
+}
+
+.buttons {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+button {
+  padding: 10px 25px;
+  font-size: 18px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+a{
+    color: white;
+}
+
+#yesBtn {
+  background-color: #ff4d6d;
+  color: white;
+}
+
+#noBtn {
+  background-color: #adb5bd;
+  color: white;
+}
+
+/* Force the fullscreen view to use our variable */
+:fullscreen {
+  background-color: var(--bg-color) !important;
+}
+
+::backdrop {
+  background-color: var(--bg-color) !important;
+}
